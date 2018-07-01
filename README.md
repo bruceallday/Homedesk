@@ -16,4 +16,4 @@ Keep a running count of individual item types and the total sales from that coun
 ## Graph
 <img width="1116" alt="screen shot 2018-07-01 at 14 31 25" src="https://user-images.githubusercontent.com/35433769/42136325-f7a475e0-7d50-11e8-85b8-a8f5f1b37595.png">
 
-See daily totals, everytime you add a new sale it is updated to the graph. Use the built in Matplotlib toolbar to zoom in to specific days, weeks, or years. Take a screenshot so you can share your data.   
+See daily totals, everytime you add a new sale it is updated to the graph. Use the built in Matplotlib toolbar to zoom in to specific days, weeks, or years. Save a screenshot so you can share your data.   
