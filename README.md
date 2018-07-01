@@ -1,5 +1,5 @@
 # H o m e  D e s k
-The idea of the homedesk app is to create a simple, easy to use data visualisation for everyday life. This example is based around keeping track of your online shop. Like Ebay, Depop, Amazon etc
+The idea of the homedesk app is to create a simple, easy to use data viz for everyday life. This example is based around keeping track of your online shop. Like Ebay, Depop, Amazon etc
 
 <img width="1668" alt="screen shot 2018-07-01 at 14 30 48" src="https://user-images.githubusercontent.com/35433769/42136157-62cb87bc-7d4e-11e8-9228-58886d219a1b.png">
 
@@ -39,7 +39,7 @@ Simple calculator with percentage calculations feature. This will calulcate, and
 
 ## Conversions
 
-<img width="690" alt="screen shot 2018-07-01 at 18 33 29" src="https://user-images.githubusercontent.com/35433769/42137056-a6dd50ca-7d5d-11e8-9913-490935026e80.png">
+<img width="699" alt="screen shot 2018-07-01 at 19 20 18" src="https://user-images.githubusercontent.com/35433769/42137428-eb422b4a-7d63-11e8-881c-b32b14b8ee14.png">
 
 A bunch of conversions put together into little widgets.
 
