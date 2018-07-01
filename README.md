@@ -1,5 +1,5 @@
 # H o m e  D e s k
-The idea of homedesk is to create a simple, easy to use data visualisation for an online shop, based around platforms like Ebay, Depop, Amazon etc
+The idea of the homedesk app is to create a simple, easy to use data visualisation for an online shop, based around platforms like Ebay, Depop, Amazon etc
 
 <img width="1668" alt="screen shot 2018-07-01 at 14 30 48" src="https://user-images.githubusercontent.com/35433769/42136157-62cb87bc-7d4e-11e8-9228-58886d219a1b.png">
 
@@ -44,10 +44,10 @@ Simple calculator with percentage calculations feature. This will calulcate, and
 A bunch of conversions put together into little widgets.
 
 ### HomeDesk Ideas
-All ideas welcome! Homedesk is meant to be the data viz or everyday life.
+All ideas welcome! Homedesk is meant to be the data viz or everyday life! Ideas iv had include:
 - Salary / Wages
-- Home outgoings
-- Completely customisable?
+- Bills
+- Personal savings
 
 ## Contributors
 - @BPouncey
