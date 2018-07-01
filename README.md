@@ -12,6 +12,7 @@ Add new items by price, date, and postage, the totals will be calculated in the 
 
 - Add a full postage cost 
 
+
 ## Item Data
 <img width="525" alt="screen shot 2018-07-01 at 14 31 08" src="https://user-images.githubusercontent.com/35433769/42136317-d83ab69c-7d50-11e8-851c-68304be5d267.png">
 
@@ -48,6 +49,14 @@ All ideas welcome! Homedesk is meant to be the data viz or everyday life! Ideas 
 - Salary / Wages
 - Bills
 - Personal savings
+- How much money you have saved, since you have cycled to work, instead of driving or taking public transport? 
+
+### Bugs
+- Im having issues with handling the exceptions in the tool bar, if one input is incorrect the rest of the inputs are still taken into their apropriate lists causing the lists to be out of sync
+
+- Sometimes the graph image doesnt update and requires the user to re-load the saved file. From then on the saved file is incorrect.
+- 
+
 
 ## Contributors
 - @BPouncey
