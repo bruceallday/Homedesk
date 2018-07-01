@@ -1,4 +1,6 @@
-# Written by Bruce M Pouncey 2017 - 2018
+#                                          H O M E D E S K
+#                                  Written by Bruce M Pouncey 2017 - 2018
+
 import datetime
 from tkinter import *
 from tkinter import messagebox, Tk
@@ -2179,4 +2181,4 @@ class TimeConverter(Toplevel):
 depopgraph = Depop_Graph(root).pack()
 root.mainloop()
 
-# © 2018, Bruce M Pouncey, All rights reserved
+# © 2018 Bruce M Pouncey All rights reserved
