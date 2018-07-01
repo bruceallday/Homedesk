@@ -55,7 +55,7 @@ All ideas welcome! Homedesk is meant to be the data viz or everyday life! Ideas 
 - Im having issues with handling the exceptions in the tool bar, if one input is incorrect the rest of the inputs are still taken into their apropriate lists causing the lists to be out of sync
 
 - Sometimes the graph image doesnt update and requires the user to re-load the saved file. From then on the saved file is incorrect.
-- 
+ 
 
 
 ## Contributors
