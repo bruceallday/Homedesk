@@ -6,3 +6,8 @@ Currently writen in python 3 using Tkinter and MatPlotLib.
 
 
 <img width="620" alt="screen shot 2018-07-01 at 14 31 01" src="https://user-images.githubusercontent.com/35433769/42136275-57497c62-7d50-11e8-8dc8-906af1cd2eac.png">
+
+
+<img width="525" alt="screen shot 2018-07-01 at 14 31 08" src="https://user-images.githubusercontent.com/35433769/42136317-d83ab69c-7d50-11e8-851c-68304be5d267.png">
+
+
