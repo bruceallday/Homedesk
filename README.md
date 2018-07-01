@@ -31,7 +31,13 @@ See daily totals, everytime you add a new sale it is updated to the graph. Use t
 - Give the user the option to change between bar and line graph
 - Give the user the option to change colour of the bar / line
 
+## Calculator
+
 <img width="395" alt="screen shot 2018-07-01 at 18 32 22" src="https://user-images.githubusercontent.com/35433769/42137051-903ef580-7d5d-11e8-8d2f-26627176284d.png">
+
+## Conversions
+
+<img width="690" alt="screen shot 2018-07-01 at 18 33 29" src="https://user-images.githubusercontent.com/35433769/42137056-a6dd50ca-7d5d-11e8-9913-490935026e80.png">
 
 
 ## Contributors
