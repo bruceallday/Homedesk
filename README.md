@@ -24,7 +24,7 @@ Keep a running count of individual item types and the total sales from that coun
 ## Graph
 <img width="1116" alt="screen shot 2018-07-01 at 14 31 25" src="https://user-images.githubusercontent.com/35433769/42136325-f7a475e0-7d50-11e8-85b8-a8f5f1b37595.png">
 
-See daily totals, everytime you add a new sale it is updated to the graph. Use the built in Matplotlib toolbar to zoom in to specific days, weeks, or years. Save a screenshot so you can share your data.
+See daily totals, everytime you add a new sale it is updated to the graph along with the new date. Use the built in Matplotlib toolbar to zoom in to specific days, weeks, or years. Save a screenshot so you can share your data.
 
 ### Ideas
 
@@ -35,10 +35,13 @@ See daily totals, everytime you add a new sale it is updated to the graph. Use t
 
 <img width="395" alt="screen shot 2018-07-01 at 18 32 22" src="https://user-images.githubusercontent.com/35433769/42137051-903ef580-7d5d-11e8-8d2f-26627176284d.png">
 
+Simple calculator with percentage calculations feature. This will calulcate, and take away the percentage from the calculation. (-10%, -20%, -30%) 
+
 ## Conversions
 
 <img width="690" alt="screen shot 2018-07-01 at 18 33 29" src="https://user-images.githubusercontent.com/35433769/42137056-a6dd50ca-7d5d-11e8-9913-490935026e80.png">
 
+A bunch of conversions put together into little widgets.
 
 ## Contributors
 
