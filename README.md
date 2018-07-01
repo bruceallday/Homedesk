@@ -8,7 +8,7 @@ The idea of homedesk is to create a simple, easy to use data visualisation for a
 
 Add new items by price, date, and postage, the totals will be calculated in the toolbar and added to your graph.
 
-### goals
+### Ideas
 
 - Add a full postage cost 
 
@@ -17,7 +17,7 @@ Add new items by price, date, and postage, the totals will be calculated in the 
 
 Keep a running count of individual item types and the total sales from that count.
 
-### goals
+### Ideas
 
 - Allow user to completely customise their individual items
 
@@ -26,10 +26,12 @@ Keep a running count of individual item types and the total sales from that coun
 
 See daily totals, everytime you add a new sale it is updated to the graph. Use the built in Matplotlib toolbar to zoom in to specific days, weeks, or years. Save a screenshot so you can share your data.
 
-### goals
+### Ideas
 
 - Give the user the option to change between bar and line graph
 - Give the user the option to change colour of the bar / line
+
+
 
 ## Contributors
 
