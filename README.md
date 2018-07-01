@@ -1,9 +1,9 @@
-# H o m e  d e s k
+# H o m e  D e s k
 The idea of homedesk is to create a simple, easy to use data visualisation for an online shop, based around platforms like Ebay, Depop, Amazon etc
 
 <img width="1668" alt="screen shot 2018-07-01 at 14 30 48" src="https://user-images.githubusercontent.com/35433769/42136157-62cb87bc-7d4e-11e8-9228-58886d219a1b.png">
 
-## T o o l B a r
+## Tool Bar
 <img width="620" alt="screen shot 2018-07-01 at 14 31 01" src="https://user-images.githubusercontent.com/35433769/42136275-57497c62-7d50-11e8-8dc8-906af1cd2eac.png">
 
 Add new items by price, date, and postage, the totals will be calculated in the toolbar and added to your graph.
@@ -43,8 +43,13 @@ Simple calculator with percentage calculations feature. This will calulcate, and
 
 A bunch of conversions put together into little widgets.
 
-## Contributors
+### HomeDesk Ideas
+All ideas welcome! Homedesk is meant to be the data viz or everyday life.
+- Salary / Wages
+- Home outgoings
+- Completely customisable?
 
+## Contributors
 - @BPouncey
 
 
