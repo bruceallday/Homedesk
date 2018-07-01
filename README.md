@@ -56,7 +56,9 @@ All ideas welcome! Homedesk is meant to be the data viz or everyday life! Ideas 
 
 - Sometimes the graph image doesnt update and requires the user to re-load the saved file. From then on the saved file is incorrect.
  
-
+### Packages
+- Tkinter
+- MatPlotLib
 
 ## Contributors
 - @BPouncey
