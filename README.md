@@ -1,5 +1,5 @@
 # H o m e  D e s k
-The idea of the homedesk app is to create a simple, easy to use data viz for everyday life. This example is based around keeping track of your online shop. Like Ebay, Depop, Amazon etc
+The idea of the homedesk app is to create a simple, easy to use data viz for an online shop. This example is based around keeping track of your sales on platforms like Ebay, Depop, Amazon etc
 
 <img width="1668" alt="screen shot 2018-07-01 at 14 30 48" src="https://user-images.githubusercontent.com/35433769/42136157-62cb87bc-7d4e-11e8-9228-58886d219a1b.png">
 
@@ -49,7 +49,6 @@ All ideas welcome! Homedesk is meant to be the data viz or everyday life! Ideas 
 - Salary / Wages
 - Bills
 - Personal savings
-- How much money you have saved, since you have cycled to work, instead of driving or taking public transport? 
 
 ### Bugs
 - Im having issues with handling the exceptions in the tool bar, if one input is incorrect the rest of the inputs are still taken into their apropriate lists causing the lists to be out of sync
