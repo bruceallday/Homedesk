@@ -45,7 +45,7 @@ Simple calculator with percentage calculations feature. This will calulcate, and
 A bunch of conversions put together into little widgets.
 
 ### HomeDesk Ideas
-All ideas welcome! Homedesk is meant to be the data viz or everyday life! Ideas iv had include:
+All ideas welcome Homedesk is meant to be the data viz for the little things in life:
 - Salary / Wages
 - Bills
 - Personal savings
