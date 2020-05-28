@@ -4,7 +4,7 @@
 import datetime
 from tkinter import *
 from tkinter import messagebox, Tk
-from matplotlib.backends.backend_tkagg import (FigureCanvasTkAgg, NavigationToolbar2TkAgg)
+from matplotlib.backends.backend_tkagg import (FigureCanvasTkAgg, NavigationToolbar2Tk)
 from matplotlib.backend_bases import key_press_handler
 from matplotlib.figure import Figure
 from matplotlib import style
@@ -67,9 +67,9 @@ class Depop_Graph(Frame):
         self.canvas.draw()
         self.canvas.get_tk_widget().pack(side=TOP)
 
-        self.toolbar = NavigationToolbar2TkAgg(self.canvas, root)
+        self.toolbar = NavigationToolbar2Tk(self.canvas, root)
         self.toolbar.update()
-        self.canvas._tkcanvas.pack(side=TOP)
+        self.canvas._tkcanvas.pack(side=TOP, fill=BOTH, expand=1)
 
         self.button2 = Button(master=root, text='Toolbar', command=lambda: DepopGraphToolbar())
         self.button2.pack(side=RIGHT)
@@ -83,7 +83,6 @@ class DepopGraphToolbar(Toplevel, Depop_Graph):
         self.create_toolbar_widgets()
 
     def save_function(self):
-        #self.hats()
         with open('Graph_New_Save_1.dat', 'ab') as f:
             pickle.dump([Stock_Cost, Shop_data, Save_Variables, price_list, new_date_list ,Depop_Graph, DepopGraphToolbar], f, protocol=2)
             messagebox.showinfo('', 'S a v e d!')
@@ -110,7 +109,7 @@ class DepopGraphToolbar(Toplevel, Depop_Graph):
                     self.hats_count_row.delete(0, END)
                     self.hats_price_row.delete(0, END)
 
-                    #self.append_data()
+                    self.append_data()
 
                     self.hats_count_row.insert(0, Shop_data['hatcount'])
                     self.hats_price_row.insert(0, Shop_data['hatprice'])
