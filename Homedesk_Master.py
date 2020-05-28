@@ -65,7 +65,7 @@ class Depop_Graph(Frame):
 
         self.canvas = FigureCanvasTkAgg(f, self)
         self.canvas.get_tk_widget().pack(side=TOP)
-        self.draw_canvas()
+        self.canvas.draw()
 
         self.toolbar = NavigationToolbar2Tk(self.canvas, root)
         self.toolbar.update()
@@ -73,9 +73,6 @@ class Depop_Graph(Frame):
 
         self.button2 = Button(master=root, text='Toolbar', command=lambda: DepopGraphToolbar(self.canvas))
         self.button2.pack(side=RIGHT)
-
-    def draw_canvas(self):
-        self.canvas.draw()
 
 # G R A P H  T O O L B A R  C L A S S
 

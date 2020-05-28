@@ -64,23 +64,24 @@ class Depop_Graph(Frame):
         self.conversion_menu.add_command(label='Time', command=lambda: TimeConverter())
 
         self.canvas = FigureCanvasTkAgg(f, self)
-        self.canvas.draw()
         self.canvas.get_tk_widget().pack(side=TOP)
+        self.canvas.draw()
 
         self.toolbar = NavigationToolbar2Tk(self.canvas, root)
         self.toolbar.update()
         self.canvas._tkcanvas.pack(side=TOP, fill=BOTH, expand=1)
 
-        self.button2 = Button(master=root, text='Toolbar', command=lambda: DepopGraphToolbar())
+        self.button2 = Button(master=root, text='Toolbar', command=lambda: DepopGraphToolbar(self.canvas))
         self.button2.pack(side=RIGHT)
 
 # G R A P H  T O O L B A R  C L A S S
 
 class DepopGraphToolbar(Toplevel, Depop_Graph):
 
-    def __init__(self):
+    def __init__(self, canvas):
         Toplevel.__init__(self)
         self.create_toolbar_widgets()
+        self.canvas = canvas
 
     def save_function(self):
         with open('Graph_New_Save_1.dat', 'ab') as f:
@@ -189,14 +190,6 @@ class DepopGraphToolbar(Toplevel, Depop_Graph):
             price_list.pop()
             new_date_list.pop()
 
-    def draw_graph(self):
-        for i in range(len(date_list)):
-            if i not in new_date_list:
-                new_date_list.append(datetime.datetime.strptime(date_list[i], "%Y-%m-%d"))
-
-        date_list.clear()
-        graph.bar(new_date_list, price_list, color='c', label='£')
-
     def get_postage_data(self):
         try:
             self.new_postage_price = float(self.postage_entry.get())
@@ -208,6 +201,16 @@ class DepopGraphToolbar(Toplevel, Depop_Graph):
             self.postage_entry.insert(0, 0)
             price_list.pop()
             new_date_list.pop()
+
+    def draw_graph(self):
+        for i in range(len(date_list)):
+            if i not in new_date_list:
+                new_date_list.append(
+                    datetime.datetime.strptime(date_list[i], "%Y-%m-%d"))
+
+        date_list.clear()
+        graph.bar(new_date_list, price_list, color='c', label='£')
+        self.canvas.draw()
 
     def get_new_sales(self):
         self.newsale = float(self.sales_display.get())
