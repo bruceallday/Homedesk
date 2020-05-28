@@ -1,6 +1,15 @@
 # H o m e  D e s k
 The idea of the homedesk app is to create a simple, easy to use data viz for an online shop. This example is based around keeping track of your sales on platforms like Ebay, Depop, Amazon etc
 
+## Instalation
+1. Clone or Fork project
+2. Make sure you have the dependancies installed:
+   - matplotlib
+   - numpy
+   - pickle
+3. Run in a python ^3.6.4 64-bit interpreter
+
+
 <img width="1668" alt="screen shot 2018-07-01 at 14 30 48" src="https://user-images.githubusercontent.com/35433769/42136157-62cb87bc-7d4e-11e8-9228-58886d219a1b.png">
 
 ## Tool Bar
