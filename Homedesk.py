@@ -5,18 +5,13 @@ import datetime
 from tkinter import *
 from tkinter import messagebox, Tk
 from matplotlib.backends.backend_tkagg import (FigureCanvasTkAgg, NavigationToolbar2Tk)
-from matplotlib.backend_bases import key_press_handler
 from matplotlib.figure import Figure
 from matplotlib import style
-import matplotlib.animation as animation
-import matplotlib.dates as mdates
-import matplotlib.cbook as cbook
-import numpy as np
 import pickle
 
 style.use('ggplot')
 root = Tk()
-root.title('Project_0')
+root.title('Homedesk')
 root.resizable(0, 0)
 
 # G R A P H  D A T A
